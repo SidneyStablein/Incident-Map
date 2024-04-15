@@ -1,4 +1,68 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oneAndOnlyDiv {
+    height: 100px;
+    width: 200px;
+    border: 1px solid #E6E6E6;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+  }
+  .oneAndOnlyDiv:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    width: 0;
+    border-top: 20px solid #E6E6E6;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+
+body {
+
+}
+
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Main {
+  margin: auto;
+  padding: 50px;  
+}
+
+.Map {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
+}
+
+.Mapkeys {
+    display: flex;
+    flex-direction: row;
+}
+
+.InfoBox {
+    width: 70%;
+    height: 231px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid #E6E6E6;
+    box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
+    margin: 0 auto;
+}
+
+.StormSeverity {
+    width: 30%;
+    height: 231px;
+    background-color: white;
+    text-align: left;
+    border: 1px solid #E6E6E6;
+    box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
+    margin-left: 30px;
 }
