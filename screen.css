@@ -3,6 +3,16 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 .oneAndOnlyDiv {
     height: 100px;
     width: 200px;
@@ -42,6 +52,14 @@ body {
     box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
 }
 
+.low {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: green;
+    text-align: center;
+    height: 45px;
+}
+
 .Mapkeys {
     display: flex;
     flex-direction: row;
@@ -65,4 +83,6 @@ body {
     border: 1px solid #E6E6E6;
     box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
     margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
