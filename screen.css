@@ -52,17 +52,33 @@ body {
     box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
     background-image: url(Map.jpg);
     background-size: 100% 100%;
-    width: 100%;
+    width: 1570px;
     height: 624px;
     position: relative;
 }
 
 .tornado-icon {
-    position: absolute;
     top: 100px;
-    left: 250px;
+    left: 400px;
     width: 57px;
     height: 57px;
+    position: absolute;
+}
+
+.outage-icon {
+    top: 280px;
+    right: 820px;
+    width: 57px;
+    height: 57px;
+    position: absolute;
+}
+
+.flood-icon {
+    top: 400px;
+    right: 210px;
+    width: 57px;
+    height: 57px;
+    position: absolute;
 }
 
 .Mapkeys {
@@ -78,6 +94,31 @@ body {
     border: 1px solid #E6E6E6;
     box-shadow: 3px 0px 10px rgb(0, 0, 0, .4);
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+.location {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: right;
+}
+
+.date {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
 }
 
 .StormSeverity {
