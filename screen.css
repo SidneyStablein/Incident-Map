@@ -1,15 +1,16 @@
 /* Add screen styles below */
-h1 {
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+}
+
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
 
 h3 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -81,6 +82,11 @@ body {
     position: absolute;
 }
 
+.flood-text {
+    width: 57px;
+    height: 57px; 
+}
+
 .Mapkeys {
     display: flex;
     flex-direction: row;
@@ -101,11 +107,18 @@ body {
 
 table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-td {
-    padding-top: 12px;
-    padding-bottom: 12px;
+tr {
+    height: 70px;
+}
+
+.table-icon {
+    width: 70px;
+}
+
+.place {
     text-align: left;
 }
 
