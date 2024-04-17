@@ -69,6 +69,32 @@ body {
     padding-left: 14px;
   }
 
+#flood {
+    height: 100px;
+    width: 200px;
+    border: 1px solid #E6E6E6;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 1px 0px 5px rgb(0, 0, 0, 0.4);
+    position: relative;
+    top: 210px;
+    left: 1230px;
+    padding-left: 14px;
+  }
+
+#outage {
+    height: 100px;
+    width: 200px;
+    border: 1px solid #E6E6E6;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 1px 0px 5px rgb(0, 0, 0, 0.4);
+    position: relative;
+    top: 200px;
+    left: 620px;
+    padding-left: 14px;
+  }
+
 .tornado-icon {
     top: 100px;
     left: 400px;
