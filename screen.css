@@ -66,6 +66,17 @@ body {
     position: absolute;
 }
 
+#myDIV {
+    height: 100px;
+    width: 200px;
+    border: 1px solid #E6E6E6;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+    left: 320px;
+  }
+
 .outage-icon {
     top: 280px;
     right: 820px;
@@ -83,6 +94,21 @@ body {
 }
 
 .flood-text {
+    width: 57px;
+    height: 57px; 
+}
+
+.outage-text {
+    width: 65px;
+    height: 53px; 
+}
+
+  button {
+    color: transparent;
+    border: none;
+  }
+
+.tornado-text {
     width: 57px;
     height: 57px; 
 }

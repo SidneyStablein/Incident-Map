@@ -13,7 +13,8 @@
     </div>
     <div class="Main">
       <div class="Map">
-        <img class="tornado-icon" src="Tornado Icon.svg" alt="Tornado symbol">
+        <button onclick="myFunction()"><img class="tornado-icon" src="Tornado Icon.svg" alt="Tornado symbol"></button>
+        <div id="myDIV">This is my DIV element.</div>
         <img class="outage-icon" src="Power Outage Icon.svg" alt="Power outage symbol">
         <img class="flood-icon" src="Flood Icon.svg" alt="Flood sykmbol">
       </div>
@@ -27,14 +28,16 @@
               <td class="location">East Grand Rapids</td>
             </tr>
             <tr style="border-bottom: 1px solid #939393;">
-              <td class="Place"><strong>Place</strong></td>
-              <td class="date">time</td>
-              <td class="location">location</td>
+              <td class="table-icon"><img class="outage-text" src="Power Outage Icon.svg" alt="Power outage symbol"></td>
+              <td class="Place"><strong>Power outage: Aquinas College</strong></td>
+              <td class="date">3/25/2024</td>
+              <td class="location">1700 Fulton St E</td>
             </tr>
             <tr style="border-bottom: 1px solid #939393;">
-              <td class="Place"><strong>Place</strong></td>
-              <td class="date">time</td>
-              <td class="location">location</td>
+              <td class="table-icon"><img class="tornado-text" src="Tornado Icon.svg" alt="Tornado symbol"></td>
+              <td class="Place"><strong>Tornado Sighting</strong></td>
+              <td class="date">3/24/2024</td>
+              <td class="location">Near Lyon St. NE</td>
             </tr>
           </table>
         </div>
@@ -48,7 +51,6 @@
         </div>
       </div>
     </div>
-    <div class="oneAndOnlyDiv">Main div</div>
     <script src="index.js"></script>
   </body>
 </html>
