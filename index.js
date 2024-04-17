@@ -1,14 +1,4 @@
 // Add JavaScript below
-function clickOmatic() {
-    alert('Hello!')
-}
-
-const click = document.getElementById('click');
-
-click.addEventListener("click", (event) => {
-    clickOmatic();
-})
-
 function myFunction() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
@@ -17,3 +7,15 @@ function myFunction() {
       x.style.display = "none";
     }
   }
+
+
+const click = document.getElementById('click');
+
+click.addEventListener("click", (event) => {
+    myFunction();
+})
+
+
+
+
+
