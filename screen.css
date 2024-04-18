@@ -48,7 +48,6 @@ body {
 .Map {
     margin: 0 auto;
     margin-bottom: 20px;
-    box-shadow: 1px 0px 5px rgb(0, 0, 0, 0.4);
     background-image: url(Map.jpg);
     background-size: 100% 100%;
     width: 1570px;
